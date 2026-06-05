@@ -1,0 +1,4 @@
+region,Pearson_r,p_value,Readings
+Asia,0.4125,1.2628e-45,1080
+Germany,0.092,2.4885e-03,1080
+USA,0.6462,1.4616e-128,1079

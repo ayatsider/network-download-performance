@@ -1,0 +1,7 @@
+Correlation between RTT and Download Time
+-----------------------------------------
+Pearson correlation: 0.5922
+Pearson p-value: 0.0000
+
+Spearman correlation: 0.4561
+Spearman p-value: 0.0000

@@ -1,0 +1,4 @@
+ANOVA Test: Download Time by Region
+----------------------------------
+F-statistic: 838.2378
+p-value: 0.0000

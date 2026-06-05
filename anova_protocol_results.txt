@@ -1,0 +1,4 @@
+ANOVA Test: Download Time by Protocol
+------------------------------------
+F-statistic: 8.0362
+p-value: 0.0003

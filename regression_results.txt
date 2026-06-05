@@ -1,0 +1,29 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:      download_time_sec   R-squared:                       0.453
+Model:                            OLS   Adj. R-squared:                  0.452
+Method:                 Least Squares   F-statistic:                     534.5
+Date:                Wed, 03 Jun 2026   Prob (F-statistic):               0.00
+Time:                        17:26:45   Log-Likelihood:                -12362.
+No. Observations:                3239   AIC:                         2.474e+04
+Df Residuals:                    3233   BIC:                         2.477e+04
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+Intercept              -10.5854      0.790    -13.398      0.000     -12.135      -9.036
+C(region)[T.Germany]     8.7394      0.530     16.480      0.000       7.700       9.779
+C(region)[T.USA]        11.0436      0.585     18.874      0.000       9.896      12.191
+C(protocol)[T.HTTP]     -1.9438      0.474     -4.104      0.000      -2.872      -1.015
+C(protocol)[T.HTTPS]     0.4769      0.474      1.007      0.314      -0.452       1.406
+rtt_ms                   0.1502      0.006     25.058      0.000       0.138       0.162
+==============================================================================
+Omnibus:                     3121.946   Durbin-Watson:                   1.396
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           182095.727
+Skew:                           4.569   Prob(JB):                         0.00
+Kurtosis:                      38.578   Cond. No.                         597.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
